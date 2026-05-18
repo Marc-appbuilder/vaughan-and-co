@@ -119,6 +119,17 @@ p:last-child { margin-bottom: 0; }
   background: rgba(248, 244, 236, 0.08);
 }
 
+.btn-outline-green {
+  background: transparent;
+  color: var(--green-dark);
+  border-color: var(--green);
+}
+.btn-outline-green:hover,
+.btn-outline-green:focus {
+  background: var(--green);
+  color: var(--cream);
+}
+
 /* ---- Sections ---- */
 .section        { padding: 84px 0; }
 .section--cream { background: var(--cream); }
@@ -231,29 +242,16 @@ p:last-child { margin-bottom: 0; }
    HERO
    ============================================================ */
 .hero {
-  background: var(--green-dark);
+  background: var(--cream);
   min-height: calc(100vh - 72px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 64px 24px;
-  position: relative;
-  overflow: hidden;
-}
-
-/* Subtle cross-hatch pattern */
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.025' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
-  pointer-events: none;
 }
 
 .hero-inner {
-  position: relative;
-  z-index: 1;
   max-width: 720px;
   width: 100%;
 }
@@ -264,14 +262,14 @@ p:last-child { margin-bottom: 0; }
   font-weight: 700;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: rgba(248, 244, 236, 0.45);
+  color: rgba(44, 95, 46, 0.5);
   margin-bottom: 14px;
 }
 
 .hero-rule {
   width: 72px;
   height: 1px;
-  background: rgba(248, 244, 236, 0.3);
+  background: rgba(44, 95, 46, 0.25);
   margin: 0 auto 20px;
 }
 
@@ -279,7 +277,7 @@ p:last-child { margin-bottom: 0; }
   font-family: var(--font-serif);
   font-size: clamp(3.2rem, 9vw, 6rem);
   font-weight: 600;
-  color: var(--cream);
+  color: var(--green-dark);
   letter-spacing: 0.03em;
   line-height: 1.05;
   margin-bottom: 6px;
@@ -291,7 +289,7 @@ p:last-child { margin-bottom: 0; }
   font-weight: 700;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: rgba(248, 244, 236, 0.5);
+  color: rgba(44, 95, 46, 0.5);
   margin-bottom: 20px;
 }
 
@@ -299,7 +297,7 @@ p:last-child { margin-bottom: 0; }
   font-family: var(--font-serif);
   font-style: italic;
   font-size: clamp(1rem, 2.5vw, 1.3rem);
-  color: rgba(248, 244, 236, 0.82);
+  color: var(--text-muted);
   margin-bottom: 0;
 }
 
