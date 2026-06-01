@@ -132,14 +132,14 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ---- Sections ---- */
-.section        { padding: 84px 0; }
+.section        { padding: 108px 0; }
 .section--cream { background: var(--cream); }
 .section--green { background: var(--green); }
 .section--white { background: var(--white); }
 
 .section-heading {
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 64px;
 }
 .section-heading p {
   color: var(--text-muted);
@@ -243,15 +243,13 @@ p:last-child { margin-bottom: 0; }
    HERO
    ============================================================ */
 .hero {
-  background:
-    linear-gradient(rgba(20, 46, 22, 0.68), rgba(20, 46, 22, 0.68)),
-    url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&h=900&fit=crop&auto=format&q=80') center / cover no-repeat;
+  background: var(--white);
   min-height: calc(100vh - 72px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 64px 24px;
+  padding: 80px 24px;
 }
 
 .hero-inner {
@@ -265,22 +263,22 @@ p:last-child { margin-bottom: 0; }
   font-weight: 700;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: rgba(248, 244, 236, 0.5);
+  color: rgba(44, 95, 46, 0.5);
   margin-bottom: 14px;
 }
 
 .hero-rule {
-  width: 72px;
+  width: 60px;
   height: 1px;
-  background: rgba(248, 244, 236, 0.3);
-  margin: 0 auto 20px;
+  background: rgba(44, 95, 46, 0.2);
+  margin: 0 auto 22px;
 }
 
 .hero-name {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-size: clamp(3.2rem, 8vw, 6.5rem);
   font-weight: 600;
-  color: var(--cream);
+  color: var(--green-dark);
   letter-spacing: 0.04em;
   line-height: 1.05;
   margin-bottom: 6px;
@@ -288,19 +286,19 @@ p:last-child { margin-bottom: 0; }
 
 .hero-strapline {
   font-family: var(--font-sans);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.38em;
   text-transform: uppercase;
-  color: rgba(248, 244, 236, 0.5);
-  margin-bottom: 20px;
+  color: rgba(44, 95, 46, 0.45);
+  margin-bottom: 22px;
 }
 
 .hero-tagline {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: clamp(1rem, 2.5vw, 1.3rem);
-  color: rgba(248, 244, 236, 0.82);
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--text-muted);
   margin-bottom: 0;
 }
 
@@ -367,7 +365,7 @@ p:last-child { margin-bottom: 0; }
 
 /* Body */
 .property-body {
-  padding: 22px 24px 26px;
+  padding: 28px 28px 32px;
   flex: 1;
   display: flex;
   flex-direction: column;
