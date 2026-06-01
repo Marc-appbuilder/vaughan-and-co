@@ -5,19 +5,19 @@
 
 /* Custom Properties */
 :root {
-  --green:        #2c5f2e;
-  --green-dark:   #1a3d1c;
-  --green-hover:  #234d25;
-  --cream:        #f8f4ec;
-  --cream-dark:   #ede8dc;
+  --green:        #0c0c0c;
+  --green-dark:   #000000;
+  --green-hover:  #2a2a2a;
+  --cream:        #f8f7f5;
+  --cream-dark:   #efede9;
   --white:        #ffffff;
-  --text:         #1c1c1c;
-  --text-muted:   #585858;
-  --border:       #d4cec4;
+  --text:         #1a1a1a;
+  --text-muted:   #717171;
+  --border:       #e0ddd8;
 
-  --font-display: 'Cormorant Garant', Georgia, 'Times New Roman', serif;
-  --font-serif:   'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-sans:    'Lato', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Bodoni Moda', Georgia, 'Times New Roman', serif;
+  --font-serif:   'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-sans:    'DM Sans', 'Helvetica Neue', Arial, sans-serif;
 
   --max-width: 1140px;
 }
@@ -259,45 +259,45 @@ p:last-child { margin-bottom: 0; }
 
 .hero-est {
   font-family: var(--font-sans);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.28em;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: rgba(44, 95, 46, 0.5);
+  color: rgba(0, 0, 0, 0.35);
   margin-bottom: 14px;
 }
 
 .hero-rule {
-  width: 60px;
+  width: 40px;
   height: 1px;
-  background: rgba(44, 95, 46, 0.2);
+  background: rgba(0, 0, 0, 0.15);
   margin: 0 auto 22px;
 }
 
 .hero-name {
   font-family: var(--font-display);
-  font-size: clamp(3.2rem, 8vw, 6.5rem);
-  font-weight: 600;
+  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  font-weight: 400;
   color: var(--green-dark);
-  letter-spacing: 0.04em;
-  line-height: 1.05;
-  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+  line-height: 1.0;
+  margin-bottom: 8px;
 }
 
 .hero-strapline {
   font-family: var(--font-sans);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.38em;
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.4em;
   text-transform: uppercase;
-  color: rgba(44, 95, 46, 0.45);
-  margin-bottom: 22px;
+  color: rgba(0, 0, 0, 0.35);
+  margin-bottom: 24px;
 }
 
 .hero-tagline {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-size: clamp(1rem, 2vw, 1.2rem);
   color: var(--text-muted);
   margin-bottom: 0;
 }
