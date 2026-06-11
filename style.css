@@ -245,7 +245,7 @@ p:last-child { margin-bottom: 0; }
 .hero {
   background:
     linear-gradient(to right, rgba(8,8,8,0.80) 0%, rgba(8,8,8,0.55) 55%, rgba(8,8,8,0.18) 100%),
-    url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1600&h=900&fit=crop&auto=format&q=80') center / cover no-repeat;
+    url('https://cdn.webdadi.net/Media/webp/xl/03F1E949-DA1A-4CB2-AD02-67C80F03B396.jpg') center / cover no-repeat;
   min-height: calc(100vh - 72px);
   display: flex;
   flex-direction: column;
