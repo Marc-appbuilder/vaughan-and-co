@@ -249,6 +249,16 @@ p:last-child { margin-bottom: 0; }
   min-height: calc(100vh - 72px);
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.hero-award {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 420px;
+  width: auto;
+  display: block;
 }
 
 .hero-content {
@@ -273,12 +283,12 @@ p:last-child { margin-bottom: 0; }
 }
 
 .hero-name {
-  font-family: var(--font-display);
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(3.5rem, 8vw, 7rem);
   font-weight: 400;
   color: #ffffff;
-  letter-spacing: 0.06em;
-  line-height: 1.0;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
   margin-bottom: 12px;
 }
 
@@ -319,13 +329,13 @@ p:last-child { margin-bottom: 0; }
 }
 
 .btn-accent {
-  background: #c4956a;
-  color: #ffffff;
-  border-color: #c4956a;
+  background: #ffffff;
+  color: #1a1a1a;
+  border-color: #ffffff;
 }
 .btn-accent:hover, .btn-accent:focus {
-  background: #ae7d52;
-  border-color: #ae7d52;
+  background: #f0eeeb;
+  border-color: #f0eeeb;
 }
 
 .btn-hero-outline {
@@ -376,7 +386,7 @@ p:last-child { margin-bottom: 0; }
   padding: 0 28px;
   font-size: 0.75rem;
   font-weight: 700;
-  color: #c4956a;
+  color: #1a1a1a;
   white-space: nowrap;
   border-right: 1px solid var(--border);
   text-transform: uppercase;
@@ -398,7 +408,7 @@ p:last-child { margin-bottom: 0; }
 .search-input::placeholder { color: #aaa; }
 
 .search-submit {
-  background: #c4956a;
+  background: #1a1a1a;
   color: #ffffff;
   border: none;
   padding: 0 32px;
@@ -416,7 +426,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .search-submit svg { width: 15px; height: 15px; }
-.search-submit:hover { background: #ae7d52; }
+.search-submit:hover { background: #333333; }
 
 
 /* ============================================================
