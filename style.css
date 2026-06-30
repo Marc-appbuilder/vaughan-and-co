@@ -272,11 +272,9 @@ ul { list-style: none; }
   .sco-body { font-size: 0.9375rem; max-width: 100%; }
 
   .sco-scroll { display: none; }
+
+  /* Hide CTA on mobile — same teal as the chat widget FAB, sits in the
+     same bottom-right zone and makes the widget unreadable against it */
+  .btn-sco-pill { display: none; }
 }
 
-/* ============================================================
-   RESPONSIVE — Small Mobile (≤480px)
-   ============================================================ */
-@media (max-width: 480px) {
-  .btn-sco-pill { width: 100%; justify-content: center; }
-}
