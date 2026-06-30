@@ -208,19 +208,6 @@ ul { list-style: none; }
 .btn-sco-pill:hover { background: var(--teal-dark); }
 .btn-sco-pill svg { width: 16px; height: 16px; }
 
-.sco-areas {
-  position: absolute;
-  right: 32px;
-  bottom: 32px;
-  text-align: right;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #ffffff;
-  line-height: 1.6;
-}
-
 .sco-scroll {
   position: absolute;
   left: 50%;
@@ -283,13 +270,6 @@ ul { list-style: none; }
 
   .sco-headline { font-size: clamp(2rem, 9vw, 2.8rem); }
   .sco-body { font-size: 0.9375rem; max-width: 100%; }
-
-  .sco-areas {
-    position: static;
-    margin-top: 32px;
-    text-align: left;
-    padding-left: 18px;
-  }
 
   .sco-scroll { display: none; }
 }
